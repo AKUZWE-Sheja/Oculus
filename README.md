@@ -1,3 +1,3 @@
 # Oculus
 
-A site that showcases women artisans' crafts
+A site that showcases women artisans' crafts.

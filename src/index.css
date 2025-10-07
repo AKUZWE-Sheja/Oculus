@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+
+/* Slick carousel custom styles */
+.slick-prev,
+.slick-next {
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  background: #0056b3;
+  border-radius: 50%;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background: #4da6ff;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px;
+  color: white;
+}
+
+.slick-dots li button:before {
+  color: #4da6ff;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #0056b3;
+}
